@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    margin-bottom: 100px;
+    left: 0;
+    top:0;
+    background-color: aquamarine;
+    position:fixed;
+    border-radius: 0px 0px 20px 20px;
+}
+
+body {
+    background-color:lavender;
+
+}
+
+#mainTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Para centralizar o texto dentro do próprio elemento */
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.texto{
+    width: 25%; 
+    
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    background-color: aquamarine;
+    position: absolute; 
+    left: 0;
+}
