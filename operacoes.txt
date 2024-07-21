@@ -1,0 +1,25 @@
+const num1 = 4;
+const num2 = 5;
+
+function operacoes(operador) {
+    if (operador === '+') {
+        console.log(`${num1} + ${num2} = ${num1 + num2}`);
+        console.log(`A soma de ${num1} e ${num2} resulta em ${num1 + num2}.`);
+    } else if (operador === '-') {
+        console.log(`${num1} - ${num2} = ${num1 - num2}`);
+        console.log(`A subtração de ${num1} por ${num2} resulta em ${num1 - num2}.`);
+    } else if (operador === '*') {
+        console.log(`${num1} * ${num2} = ${num1 * num2}`);
+        console.log(`A multiplicação de ${num1} por ${num2} resulta em ${num1 * num2}.`);
+    } else if (operador === '/') {
+        console.log(`${num1} / ${num2} = ${num1 / num2}`);
+        console.log(`A divisão de ${num1} por ${num2} resulta em ${num1 / num2}.`);
+    } else {
+        console.log("Operador inválido. Use '+', '-', '*' ou '/'.");
+    }
+}
+
+operacoes('+');
+operacoes('-');
+operacoes('*');
+operacoes('/');
